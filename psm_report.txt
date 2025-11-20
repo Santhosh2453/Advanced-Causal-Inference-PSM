@@ -1,0 +1,21 @@
+Propensity Score Matching Report
+================================
+
+Total N: 1500
+Treated: 1189
+Controls: 311
+Matched pairs: 248
+Caliper: 0.1347
+
+ATT Estimation:
+ATT = 9.3045
+SE  = 0.5344
+95% CI = [8.2306, 10.3256]
+
+Balance Table:
+covariate  SMD_before  SMD_after  treated_mean_before  control_mean_before  treated_mean_after  control_mean_after
+      age    0.181709  -0.000242             0.038458            -0.147029           -0.091741           -0.091496
+   income    0.481013  -0.066699             0.096843            -0.370247           -0.299412           -0.236347
+   health    0.242139   0.047805             0.050335            -0.192439           -0.102928           -0.150220
+    smoke   -0.318996  -0.049585            -0.067779             0.259131            0.165223            0.218052
+ exercise    0.060814   0.044587             0.012388            -0.047360           -0.009347           -0.053687
